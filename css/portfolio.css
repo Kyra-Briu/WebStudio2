@@ -1,0 +1,147 @@
+:root {
+    --checked: #2196F3;
+    --upper-back: #2F303A;
+    --transperent: rgba(255, 255, 255, 0.60);
+    --project-black: #212121;
+    --text: #757575;
+    --lower-back: #F5F4FA;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    letter-spacing:0.48px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+ul,p,a,h4,li {
+    padding:0;
+    margin:0;
+}
+.container{
+    width:1200px;
+    padding:5px;
+    margin: 0 auto;
+}
+.logo{
+    font-size:26px;
+    color:var(--checked);
+    font-family: 'Raleway', serif;
+    font-weight:700;
+    letter-spacing:0.78px; 
+    display:inline-block;
+}
+.header .logo{
+    margin:25px 93px 25px 0; 
+}
+.header .logo span{
+    color:black;
+}
+.footer .logo span{
+    color:white;
+}
+.nav-list-item{
+    display:inline-block;
+    margin:32px 50px;
+}
+.nav-list-item:first-child{
+    margin-left:0;
+}
+.nav-list-item:last-child{
+    margin-right:344px;
+}
+.nav-list-link{
+    color:var(--project-black);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.nav-list-link:hover{
+    color:var(--checked);
+}
+.header-link-contacts{
+    color:var(--text);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    display:inline-block;
+    margin:32px 50px 32px 0; 
+}
+.header-link-contacts:last-child{
+    margin-right:0;
+}
+.header-link-contacts:hover{
+    color:var(--checked);
+}
+.header .container{
+    margin-bottom:94px;
+}
+.main-list-menu{
+    display:inline-block;
+    margin:0 auto 50px;
+}
+.main-list-menu-link{
+    color:var(--project-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    align-items:center;
+    /* display:inline-blosk -- дает елементу особенности и блокового (можно ставить конкретный рамер и дикорации блока) и рядкового тега (щставляет место рядом с собой для следующего елемента, дикорации текста)  */
+    display:inline-block;
+    padding:6px 22px;
+    margin-right:8px;
+    background-color: var(--lower-back);
+    border-radius:4px;
+}
+.main-list-menu-link:hover{
+    color:white;
+    background-color:var(--checked);
+}
+.card-list-article{
+    margin-bottom:30px;
+    display:inline-block;
+    width: 404px;
+    height:370px;
+    padding:0;
+}
+.card-list-title{
+    color: var(--project-black);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    margin:20px 24px 4px;
+}
+.card-list-text{
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+    margin: 0 24px 20px;
+}
+.footer .container{
+    padding:60px auto 60px 0;
+}
+.footer{
+    background-color:var(--upper-back);
+    margin:94px 0 0 0;
+    padding:60px 0;
+}
+.footer .logo {
+    margin:0 auto 20px 0;
+}
+.footer-text{
+    margin:0 auto 9px 0;
+    color: white;
+    font-size:14px;
+    line-height:1.7;
+    letter-spacing:0.42;
+}
+.footer-link-contacts{
+    color:var(--transperent);
+    margin:0 auto 9px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+}
