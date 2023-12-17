@@ -28,14 +28,14 @@ p,ul,h2, h4, h5, img, button{
 }
 .container{
     width:1200px;
-    padding:5px;
+    padding:15px;
     margin: 0 auto;
 }
 .header .container{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    padding:24px 0;
+    padding:24px 15px;
     align-items:center;
 }
 .logo{
@@ -57,9 +57,6 @@ p,ul,h2, h4, h5, img, button{
     margin-left:93px;
     display:flex;
     gap:50px;
-}
-.nav-list-item{
-    display: inline;
 }
 .nav-list-link{
     color:var(--project-black);
@@ -146,42 +143,39 @@ p,ul,h2, h4, h5, img, button{
     text-align:center;
 }
 .article-team .container{
-    padding:94px 0;
+    padding:94px 15px;
 }
 .article-team{
     /* width:1600px;
     height:648px; */
     background-color:var(--lower-back);
+    display:flex;
 }
-/* .article-team-list-item{
-    height:368px;
+.article-team-title{
+    text-align:center;
+}
+.article-team-list{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    margin:0 auto;
+}
+.article-team-list-item{
     width:270px;
     background-color:white;
-
-} */
-.article-team{
-    
+    padding:0 0 30px 0;
+    text-align: center;
 }
 .article-team-title{
     color:var(--project-black);
     font-size: 36px;
     letter-spacing: 1.08px;
-    margin:0 auto 50px;
+    margin: 0 auto 50px;
+    
 }
 .article-team-list-img{
     height:270px;
     width:260px;
-    margin: 0 0 30px;
-
-}
-.article-team-list-item{
-    width:270px;
-    height:368px;
-    background-color: white;
-    text-align: center;
-    display:inline-block;
-    margin-right:30px;
-    /* padding-bottom:30px; */
 }
 .article-team-list-item:last-child{
     margin-right:0px;
@@ -190,12 +184,12 @@ p,ul,h2, h4, h5, img, button{
     color: var(--project-black);
     font-size: 16px;
     font-weight: 500;
-    margin: 0 70px 10px;
+    margin: 30px auto 10px;
 }
 .article-team-list-text{
     color: var(--text);
     font-size: 16px;
-    margin:0 70px;
+    margin:0 auto;
 }
 .footer .container{
     padding: 60px 5px;
@@ -209,13 +203,17 @@ p,ul,h2, h4, h5, img, button{
 .footer .logo{
     margin-bottom:20px;
 }
+.footer-links-container{
+    display:flex;
+    flex-direction:column;
+    gap:9px;
+}
 .footer-text{
     color: white;
     letter-spacing: 0.42px;
-    margin:0 auto 9px 0;
+    margin:0;
 }
 .footer-link-contacts{
     color:var(--transperent);
     letter-spacing: 0.42px;
-    margin-bottom:9px;
 }
