@@ -131,7 +131,12 @@ p,ul,h2, h4, h5, img, button{
     letter-spacing: 0.42px;
 }
 .container .sec-tasks{
-    margin: 0 0 86px;
+    padding-bottom:94px;
+}
+.sec-tasks-list{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
 .sec-tasks-title{
     color: var(--project-black);
@@ -154,11 +159,14 @@ p,ul,h2, h4, h5, img, button{
     background-color:white;
 
 } */
+.article-team{
+    
+}
 .article-team-title{
     color:var(--project-black);
     font-size: 36px;
     letter-spacing: 1.08px;
-    text-align: center;
+    margin:0 auto 50px;
 }
 .article-team-list-img{
     height:270px;
