@@ -28,7 +28,7 @@ p,ul,h2, h4, h5, img, button{
 }
 .container{
     width:1200px;
-    padding:15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .header .container{
