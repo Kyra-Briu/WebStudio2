@@ -31,6 +31,7 @@ ul,p,a,h4,li {
     display:flex;
     flex-direction:row;
     padding:25px 0; 
+    align-items:center;
 }
 .logo{
     font-size:26px;
@@ -47,11 +48,9 @@ ul,p,a,h4,li {
     color:white;
 }
 .nav-list{
-    
-}
-.nav-list-item{
-    display:inline-block;
-    margin:32px 50px;
+    display:flex;
+    flex-direction:row;
+    gap:50px;
 }
 .nav-list-item:first-child{
     margin-left:0;
@@ -71,8 +70,6 @@ ul,p,a,h4,li {
     color:var(--text);
     font-weight: 500;
     letter-spacing: 0.28px;
-    display:inline-block;
-    margin:32px 50px 32px 0; 
 }
 .header-link-contacts:last-child{
     margin-right:0;
