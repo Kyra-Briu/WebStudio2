@@ -24,8 +24,13 @@ ul,p,a,h4,li {
 }
 .container{
     width:1200px;
-    padding:5px;
+    padding:0 15px;
     margin: 0 auto;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    padding:25px 0; 
 }
 .logo{
     font-size:26px;
@@ -35,14 +40,14 @@ ul,p,a,h4,li {
     letter-spacing:0.78px; 
     display:inline-block;
 }
-.header .logo{
-    margin:25px 93px 25px 0; 
-}
 .header .logo span{
     color:black;
 }
 .footer .logo span{
     color:white;
+}
+.nav-list{
+    
 }
 .nav-list-item{
     display:inline-block;

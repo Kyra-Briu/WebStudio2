@@ -22,7 +22,7 @@ ul{
 a{
     text-decoration:none;
 }
-p,ul,h2, h4, h5, img, button{
+p,ul,h2, h4, h5, h1, img, button{
     margin: 0x;
     padding: 0px;
 }
@@ -79,9 +79,10 @@ p,ul,h2, h4, h5, img, button{
     color:var(--checked);
 }
 .sect-ef-s{
-    background-color: var(--upper-back);
-    /* width:1600px;
-    height:600px; */  
+    background-color: var(--upper-back); 
+}
+.sect-ef-s .container{
+    padding:200px 15px 200px;
 }
 .sect-ef-s-title{
     color: white;
@@ -91,7 +92,7 @@ p,ul,h2, h4, h5, img, button{
     line-height: 1.36;
     letter-spacing: 2.64px;
     text-align: center;
-    margin: 200px auto 40px; 
+    margin:0 252px 30px; 
 }
 .section-ef-s-button{
     padding:10px 32px;
@@ -106,7 +107,7 @@ p,ul,h2, h4, h5, img, button{
     text-align: center;
     border: none;
     border-radius:5px;
-    margin: 0 auto 200px; 
+    margin:0 auto;
 }
 .container .sec-benefits{
     padding: 94px 0;    
