@@ -202,6 +202,7 @@ p,ul,h2, h4, h5, h1, img, button{
     background-color: var(--upper-back);
 }
 .footer .logo{
+    display:inline-block;
     margin-bottom:20px;
 }
 .footer-links-container{
