@@ -32,6 +32,7 @@ ul,p,a,h4,li {
     flex-direction:row;
     padding:25px 0; 
     align-items:center;
+    /* justify-content:space-between; */
 }
 .logo{
     font-size:26px;
@@ -39,7 +40,6 @@ ul,p,a,h4,li {
     font-family: 'Raleway', serif;
     font-weight:700;
     letter-spacing:0.78px; 
-    display:inline-block;
 }
 .header .logo span{
     color:black;
@@ -51,25 +51,28 @@ ul,p,a,h4,li {
     display:flex;
     flex-direction:row;
     gap:50px;
-}
-.nav-list-item:first-child{
-    margin-left:0;
-}
-.nav-list-item:last-child{
+    margin-left:93px;
     margin-right:344px;
 }
 .nav-list-link{
     color:var(--project-black);
     font-weight: 500;
     letter-spacing: 0.28px;
+    font-size:14px;
 }
 .nav-list-link:hover{
     color:var(--checked);
+}
+.header-contacts-box{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
 }
 .header-link-contacts{
     color:var(--text);
     font-weight: 500;
     letter-spacing: 0.28px;
+    font-size:14px;
 }
 .header-link-contacts:last-child{
     margin-right:0;
@@ -81,7 +84,9 @@ ul,p,a,h4,li {
     margin-bottom:94px;
 }
 .main-list-menu{
-    display:inline-block;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
     margin:0 auto 50px;
 }
 .main-list-menu-link{
@@ -101,48 +106,60 @@ ul,p,a,h4,li {
     color:white;
     background-color:var(--checked);
 }
+.card-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:30px;
+    padding-bottom:94px;
+}
 .card-list-article{
     margin-bottom:30px;
     display:inline-block;
-    width: 404px;
-    height:370px;
-    padding:0;
+    width: 370px;
+    height: 404px;
+    padding:0 0 20px;
 }
 .card-list-title{
     color: var(--project-black);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 1.08px;
-    margin:20px 24px 4px;
+    margin:20px 0 4px 24px;
 }
 .card-list-text{
     color: var(--text);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.48px;
-    margin: 0 24px 20px;
+    margin: 0 0 0 24px;
 }
-.footer .container{
+/* .footer .container{
     padding:60px auto 60px 0;
-}
+} */
 .footer{
     background-color:var(--upper-back);
-    margin:94px 0 0 0;
+    margin:0;
     padding:60px 0;
 }
 .footer .logo {
-    margin:0 auto 20px 0;
+    display:inline-block;
+    padding-bottom:20px;
+}
+.footer-box{
+    display:flex;
+    flex-direction:column;
+    gap:9px;
 }
 .footer-text{
-    margin:0 auto 9px 0;
     color: white;
     font-size:14px;
     line-height:1.7;
     letter-spacing:0.42;
 }
+
 .footer-link-contacts{
     color:var(--transperent);
-    margin:0 auto 9px 0;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.42px;
