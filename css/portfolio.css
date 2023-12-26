@@ -87,7 +87,7 @@ ul,p,a,h4,li {
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin:0 auto 50px;
+    margin:94px auto 50px;
 }
 .main-list-menu-link{
     color:var(--project-black);
