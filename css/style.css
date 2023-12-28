@@ -150,7 +150,6 @@ p,ul,h2, h4, h5, h1, img, button{
     /* width:1600px;
     height:648px; */
     background-color:var(--lower-back);
-    display:flex;
 }
 .article-team-list{
     display:flex;

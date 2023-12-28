@@ -28,6 +28,9 @@ ul,p,a,h4,li {
     margin: 0 auto;
 }
 .header{
+    padding-bottom:94px;
+}
+.header .container{
     display:flex;
     flex-direction:row;
     padding:25px 0; 
@@ -80,14 +83,12 @@ ul,p,a,h4,li {
 .header-link-contacts:hover{
     color:var(--checked);
 }
-.header .container{
-    margin-bottom:94px;
-}
 .main-list-menu{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin:94px auto 50px;
+    margin:0 auto 50px;
+    gap:8px;
 }
 .main-list-menu-link{
     color:var(--project-black);
