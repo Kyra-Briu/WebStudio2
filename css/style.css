@@ -141,7 +141,7 @@ p,ul,h2, h4, h5, h1, img, button{
     color: var(--project-black);
     font-size: 36px;
     letter-spacing: 1.08px;
-    margin: 0 auto 50px;
+    padding: 0 auto 50px;
     text-align:center;
 }
 .article-team .container{
