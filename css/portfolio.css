@@ -114,9 +114,11 @@ ul,p,a,h4,li {
     gap:30px;
     padding-bottom:94px;
 }
+.card-list-item{
+    flex-basis:calc((100% - 2*30px) / 3)
+}
 .card-list-article{
     margin-bottom:30px;
-    display:inline-block;
     width: 370px;
     height: 404px;
     padding:0 0 20px;
@@ -135,9 +137,6 @@ ul,p,a,h4,li {
     letter-spacing: 0.48px;
     margin: 0 0 0 24px;
 }
-/* .footer .container{
-    padding:60px auto 60px 0;
-} */
 .footer{
     background-color:var(--upper-back);
     margin:0;
