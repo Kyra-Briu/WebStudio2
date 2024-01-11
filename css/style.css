@@ -115,6 +115,27 @@ p,ul,h2, h4, h5, h1, img, button{
     gap:30px;
     flex-direction:row;
 }
+.sec-benefits-list-item::before{
+    content:"";
+    display:inline-block;
+    width: 270px;
+    height: 120px;
+    background-color:var(--lower-back);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.sec-benefits-list-item:first-child::before{
+    background-image:url('/IMG/antenna1.png');
+}
+.sec-benefits-list-item:nth-child(2)::before{
+    background-image:url('/IMG/clock1.png');
+}
+.sec-benefits-list-item:nth-child(3)::before{
+    background-image:url('/IMG/diagram1.png');
+}
+.sec-benefits-list-item:nth-child(4)::before{
+    background-image:url('/IMG/astronaut1.png');
+}
 .sec-benefits-list-title{
     color:var(--project-black);
     font-weight: 700;
