@@ -120,6 +120,8 @@ p,ul,h2, h4, h5, h1, img, button{
     display:inline-block;
     width: 270px;
     height: 120px;
+    padding:25px 100px;
+    margin-bottom:30px;
     background-color:var(--lower-back);
     background-repeat:no-repeat;
     background-position:center;
