@@ -127,16 +127,16 @@ p,ul,h2, h4, h5, h1, img, button{
     background-position:center;
 }
 .sec-benefits-list-item:first-child::before{
-    background-image:url('../IMG/antenna1.png');
+    background-image:url('../IMG/antenna1.svg');
 }
 .sec-benefits-list-item:nth-child(2)::before{
-    background-image:url('../IMG/clock1.png');
+    background-image:url('../IMG/clock1.svg');
 }
 .sec-benefits-list-item:nth-child(3)::before{
-    background-image:url('../IMG/diagram1.png');
+    background-image:url('../IMG/diagram1.svg');
 }
 .sec-benefits-list-item:nth-child(4)::before{
-    background-image:url('../IMG/astronaut1.png');
+    background-image:url('../IMG/astronaut1.svg');
 }
 .sec-benefits-list-title{
     color:var(--project-black);
