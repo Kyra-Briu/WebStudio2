@@ -83,6 +83,9 @@ ul,p,a,h4,li {
 .header-link-contacts:hover{
     color:var(--checked);
 }
+.main{
+    padding-bottom:94px;
+}
 .main-list-menu{
     display:flex;
     flex-direction:row;
@@ -112,7 +115,6 @@ ul,p,a,h4,li {
     flex-direction:row;
     flex-wrap:wrap;
     gap:30px;
-    padding-bottom:94px;
 }
 .card-list-item{
     flex-basis:calc((100% - 2*30px) / 3)
