@@ -109,6 +109,7 @@ ul,p,a,h4,li {
 .main-list-menu-link:hover{
     color:white;
     background-color:var(--checked);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
 }
 .card-list{
     display:flex;
@@ -124,6 +125,9 @@ ul,p,a,h4,li {
     width: 370px;
     height: 404px;
     padding:0 0 20px;
+}
+.card-list-article:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .card-list-title{
     color: var(--project-black);
