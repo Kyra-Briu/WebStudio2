@@ -79,10 +79,10 @@ p,ul,h2, h4, h5, h1, img, button{
 }
 .sect-ef-s{
     background-color: var(--upper-back);
-    background-image:url(../IMG/Img.jpg), linear-gradient(to right, var(--transparent-black), var(--transparent-black)100%);
-    background-position:center, center;
-    background-size:cover, cover;
-    background-repeat:no-repeat, repeat;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../IMG/Img.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
     padding-top: 200px; 
     padding-bottom: 200px;
 }
@@ -110,6 +110,7 @@ p,ul,h2, h4, h5, h1, img, button{
     border: none;
     border-radius:5px;
     margin:0 auto;
+    cursor:pointer;
 }
 .sec-benefits{
     padding: 94px 0 0;    
