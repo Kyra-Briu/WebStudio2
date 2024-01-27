@@ -111,6 +111,7 @@ p,ul,h2, h4, h5, h1, img, button{
     border-radius:5px;
     margin:0 auto;
     cursor:pointer;
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .sec-benefits{
     padding: 94px 0 0;    
